@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap" rel="stylesheet">
+
+    <!-- Nunito font code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Nunito:ital,wght@1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="icon" onclick="toggleDetails()">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="details">
+            <ul>
+                <li>Username</li>
+                <li>List</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="heading">To Do List</h1>
+        <br class="give_space">
+        <div class="top_contents">
+            <input type="text" placeholder="Write here....." id="new-task">
+            <input type="submit" value="Add task" onclick="addTask()">
+        </div>
+        <ul class="task-list" id="task-list"></ul>
+    </div>
+    <script src="to_do_list.js"></script>
+</body>
+
+</html>
