@@ -1,7 +1,8 @@
-html::selection{
+html::selection {
     background-color: grey;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-image: url("../image/background.webp");
@@ -9,45 +10,51 @@ body{
     background-size: cover;
     color: white;
 }
-.conts{
+
+.conts {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cont{
+
+.cont {
     height: 2rem;
     background-color: red;
     color: white;
 }
-.container{
+
+.container {
     border: 1px solid grey;
     background-color: rgba(255, 255, 255, 0.2);
-     backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     margin: 10rem;
     padding: 3rem;
     box-shadow: 2px 2px 2px rgb(233, 229, 229);
     border-radius: 2rem;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
-        box-shadow: 3px 3px 3px rgb(233,229,229);
+        box-shadow: 3px 3px 3px rgb(233, 229, 229);
     }
 }
 
-.dateContainer{
+.dateContainer {
     gap: 2rem;
 }
 
-.container1{
+.container1 {
     gap: 4rem;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
-li{
+
+li {
     font-size: 4rem;
 }
